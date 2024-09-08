@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+    <html lang= "en">
+<head>
+    <meta charset="UTF 8"
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0"
+    <title>MPILO central health system</title>
+    <a href="index.html">
+      <img src="Mpilo Health.jpg" alt="logo" height="100" width="100" hspace="450" vspace="20" align="center"/>
+      </a>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h1>Patient reports</h1>
+<p>Select from group of diagnostics</p>
+
+<form action="/action_page.php">
+  <label for="Reports">Choose a report:</label>
+  <select name="reports" id="report">
+    <optgroup label="Select">
+      <option value="Physician">Physician</option>
+      <option value="radiologist">Radiologist</option>
+      <option value="Specialist Surgeon">Surgeon</option>
+      <option value="Physiotherapist">Physiotherapist</option>
+      <option value="Occupational Therapist">Occupational Therapist</option>
+      <option value="Audiologist">Audiologist</option>
+      <option value="Speech Therapist">Speech therapist</option>
+      <option value="Eye Tests">Dietician</option>
+    </optgroup>
+  </select>
+  <br><br>
+  <form action="/action_page.php">
+    <input type="file" id="myFile" name="filename">
+    <input type="submit">
+  </form>
+
+
+
+
+
+</body>
+</html>
